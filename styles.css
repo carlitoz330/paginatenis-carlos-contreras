@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* titulo */
+
+.titulo {
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #247EBA;
+    padding: 10px 0;
+}
+
+
+/*navegacion*/
+
+.navegacion {
+    background-color: #247EBA;
+    
+}
+
+.navegacion nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/*banner*/
+
+.banner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.banner-img {
+    background-image: url(img/banner1.jpg);
+    background-size: cover;
+    height: 450px;
+    position: relative;
+}
+
+.contenido-ban {
+    position: absolute;
+    top: 20%;
+    right: 30%;
+    font-size: 60px;
+    color: #9FCCAF;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*contenido principal*/
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border: 1px solid #834A99;
+    margin: 25px 0;
+}
+
+.tarjeta img {
+    margin: 10px;
+}
+
+.tarjeta h4 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tarjeta p {
+    font-size: 25px;
+    font-weight: bold;
+    color: gray;
+    margin-bottom: 10px;
+
+}
